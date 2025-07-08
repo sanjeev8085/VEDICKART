@@ -8,7 +8,7 @@ let imgsrc;
 const Explore_btn =document.querySelectorAll('#Explore_btn');
 const shopnowbtn =document.querySelector('#shopnowbtn');
 
-if(window.location.pathname=="/sproduct.html"){
+if(window.location.pathname.includes("sproduct.html"){
     
     let sproduct_main_div = document.querySelector('.single-pro-details');
 
@@ -46,7 +46,7 @@ try{Explore_btn.forEach((e)=>{
 // localStorage.setItem()
 
 let location1 = ((window.location).pathname);
-if(location1=="/cart.html"){
+if(location1.includes("cart.html"){
     
 
 
