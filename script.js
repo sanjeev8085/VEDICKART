@@ -8,7 +8,7 @@ let imgsrc;
 const Explore_btn =document.querySelectorAll('#Explore_btn');
 const shopnowbtn =document.querySelector('#shopnowbtn');
 
-if(window.location.pathname.includes("sproduct.html"){
+if(window.location.pathname.includes("sproduct.html")){
     
     let sproduct_main_div = document.querySelector('.single-pro-details');
 
