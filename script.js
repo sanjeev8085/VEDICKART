@@ -46,7 +46,7 @@ try{Explore_btn.forEach((e)=>{
 // localStorage.setItem()
 
 let location1 = ((window.location).pathname);
-if(location1.includes("cart.html"){
+if(location1.includes("cart.html")){
     
 
 
